@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great");
+
+.current {
+    width: 21%;
+    height: 149px;
+    background-color: #20232a;
+    color: whitesmoke;
+    padding: 6px 13px;
+    font-family: 'Roboto Slab', serif;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-size: 19px;
+}
+
+.current td.name {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #61dafb;
+}
+
+.text-weather {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 19px;
+}
+
+@media only screen and (max-width: 500px) {
+    .current {
+        width: 86%;
+        padding: 4px 3%;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        font-size: 21px;
+    }
+
+    .current td.name {
+        font-size: 24px;
+    }
+
+    .text-weather {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    .current {
+        width: 46%;
+        padding: 3px 3%;
+        font-size: 19px;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .current td.name {
+        font-size: 21px;
+    }
+
+    .text-weather {
+        font-size: 17px;
+    }
+} 
+
+@media only screen and (min-width: 768px) and (max-width: 1099px) {
+    .current {
+        width: 31%;
+        padding: 0px 6px;
+        border-top: 2px solid black;
+        border-bottom: none;
+        border-right: none;
+    }
+}
