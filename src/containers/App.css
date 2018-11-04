@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://wallpapercave.com/wp/iHUonse.jpg') no-repeat center;
+  background-size: cover;*/
+  background-color: #282c34;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}

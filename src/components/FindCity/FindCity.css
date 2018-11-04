@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+
+.find-city-form {
+    width: 96%;
+    display: flex;
+    margin-bottom: 30px;
+    background-color: #20232a;
+    border-radius: 10px;
+    padding: 13px 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.find-city-form label {
+    font-size: 19px;
+    color: whitesmoke;
+    margin: 0 3% 0 2%;
+    white-space: nowrap;
+}
+
+.form-control {
+    width: inherit;
+    height: 35px;
+    padding: 0 2%;
+    border: none;
+    border-radius: 6px;
+    color: #20232a;
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+}
+
+.btn-find {
+    width: 23%;
+    height: 35px;
+    margin: 0 2% 0 2%;
+    background-color: #61dafb;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+}
+
+@media only screen and (max-width: 500px) {
+    .find-city-form {
+        width: 86%;
+        flex-direction: column;
+    }
+
+    .form-group {
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .find-city-form label {
+        margin: 0px 0px 0px 5%;
+    }
+
+    .form-control {
+        width: 94%;
+        margin: 13px 5% 0px 5%;
+        padding: 0px 3%;
+    }
+    
+    .btn-find {
+        width: 90%;
+        margin: 13px 0px 0px 4.5%;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px) { 
+    .find-city-form {
+        width: 92%;
+        flex-direction: column;
+    }
+
+    .form-group {
+        width: 100%;
+        display: flex;
+    }
+
+    .find-city-form label {
+        margin: 0px 0px 0px 3%;
+        white-space: nowrap;
+    }
+
+    .form-control {
+        margin: 0px 3% 0px 3%;
+        padding: 0px 3%;
+    }
+    
+    .btn-find {
+        width: 94%;
+        margin: 13px 3% 0px 3%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1099px) {
+    .find-city-form {
+        width: 93%;
+    }
+
+    .form-group {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .find-city-form label {
+        margin: 0px 0px 0px 3%;
+        white-space: nowrap;
+    }
+
+    .form-control {
+        margin: 0px 3% 0px 3%;
+        padding: 0px 3%;
+    }
+    
+    .btn-find {
+        width: 44%;
+        margin: 0px 3% 0px 1%;
+    }
+}

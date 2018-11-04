@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+
+.days {
+    width: 15%;
+    height: 135px;
+    background-color: #20232a;
+    color: whitesmoke;
+    padding: 6px 13px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 21px;
+    border-right: 2px solid black;
+}
+
+td.day-name {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 6px;
+}
+
+.weather-icon {
+    text-align: center;
+}
+
+span.temp {
+    line-height: 45px;
+    vertical-align: top;
+    margin-left: 9px;
+}
+
+td.weather {
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+@media only screen and (max-width: 500px) {
+    .days {
+        width: 86%;
+        padding: 4px 0px;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    .days {
+        width: 46%;
+        padding: 4.5px 3%;
+        border: 1px solid black;
+    }
+
+    .days:nth-child(odd) {
+        border-right: 2px solid black;
+    }
+
+    .days:nth-child(even) {
+        border-left: 2px solid black;
+    }
+
+    .days:nth-child(3) {
+        border-top: 2px solid black;
+    }
+
+    .days:nth-child(6),
+    .days:nth-child(7) {
+        border-bottom: 2px solid black;
+    }
+} 
+
+@media only screen and (min-width: 768px) and (max-width: 1099px) {
+    .days {
+        width: 31%;
+        padding: 5px 13px;
+        border-left: 2px solid black;
+        border-top: 2px solid black;
+        border-right: none;
+    }
+
+    .days:nth-child(5),
+    .days:nth-child(6),
+    .days:nth-child(7) {
+        border-bottom: 2px solid black;
+    }
+
+    .days:nth-child(4),
+    .days:nth-child(7) {
+        border-right: 2px solid black;
+    }
+} 

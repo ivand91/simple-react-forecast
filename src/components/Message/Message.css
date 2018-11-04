@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+
+.Message {
+    width: 96%;
+    background-color: #61dafb;
+    color: #20232a;
+    font-family: 'Roboto Slab', serif;
+    font-size: 27px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.Message p {
+    margin: 8px 0px;
+}
+
+.Message p::first-letter {
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 500px) {
+    .Message {
+        width: 86%;
+        font-size: 21px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px) { 
+    .Message {
+        width: 92%;
+        font-size: 21px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1099px) {
+    .Message {
+        width: 93%;
+        font-size: 23px;
+    }
+}
