@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 
 .days {
+    box-sizing: border-box;
     width: 15%;
     height: 135px;
     background-color: #20232a;
     color: whitesmoke;
-    padding: 6px 13px;
+    padding: 6px 2%;
     font-family: 'Roboto Slab', serif;
     font-size: 21px;
     border-right: 2px solid black;
@@ -45,7 +46,7 @@ td.weather {
 @media only screen and (min-width: 501px) and (max-width: 767px) {
     .days {
         width: 46%;
-        padding: 4.5px 3%;
+        padding: 4px 3%;
         border: 1px solid black;
     }
 
@@ -86,4 +87,11 @@ td.weather {
     .days:nth-child(7) {
         border-right: 2px solid black;
     }
-} 
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1365px) {
+    .days {
+        width: 15%;
+        padding: 6px 0;
+    }
+}
