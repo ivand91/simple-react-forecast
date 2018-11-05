@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 
 .Message {
+    box-sizing: border-box;
     width: 96%;
     background-color: #61dafb;
     color: #20232a;

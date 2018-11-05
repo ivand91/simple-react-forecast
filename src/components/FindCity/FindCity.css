@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 
 .find-city-form {
+    box-sizing: border-box;
     width: 96%;
     display: flex;
     margin-bottom: 30px;

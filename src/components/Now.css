@@ -2,23 +2,24 @@
 @import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great");
 
 .current {
+    box-sizing: border-box;
     width: 21%;
     height: 149px;
+    padding: 6px 3%;
+    font-size: 19px;
     background-color: #20232a;
     color: whitesmoke;
-    padding: 6px 13px;
     font-family: 'Roboto Slab', serif;
     border-left: 2px solid black;
     border-right: 2px solid black;
-    font-size: 19px;
 }
 
 .current td.name {
     font-family: 'Fredericka the Great', cursive;
-    font-size: 24px;
     text-transform: uppercase;
     text-align: center;
     color: #61dafb;
+    font-size: 24px;
 }
 
 .text-weather {
@@ -48,6 +49,7 @@
 @media only screen and (min-width: 501px) and (max-width: 767px) {
     .current {
         width: 46%;
+        height: 148px;
         padding: 3px 3%;
         font-size: 19px;
         border-top: 2px solid black;
@@ -72,5 +74,13 @@
         border-top: 2px solid black;
         border-bottom: none;
         border-right: none;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1365px) {
+    .current {
+        width: 21%;
+        height: 149px;
+        padding: 6px 2%;
     }
 }
