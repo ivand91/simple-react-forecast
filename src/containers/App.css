@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://wallpapercave.com/wp/iHUonse.jpg') no-repeat center;
-  background-size: cover;*/
-  background-color: #282c34;
+  background: #667db6;
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
 }
 
 .App {
@@ -13,13 +13,14 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .hide {
-  visibility: hidden;
+  display: none;
 }
 
 .show {
-  visibility: visible;
+  display: block;
 }
